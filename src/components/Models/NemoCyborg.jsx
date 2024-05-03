@@ -23,7 +23,7 @@ export default function NemoCyborg(props) {
     <group {...props} dispose={null}
     ref={modelRef}
     position={[0, -1.5, 1]}
-    scale={[1.5, 1.5, 1.5,]}
+    scale={[1.3, 1.3, 1.3,]}
     rotation={[0, 0.30, 0]}
     >
       <primitive object={nodes.GLTF_created_0_rootJoint} />
