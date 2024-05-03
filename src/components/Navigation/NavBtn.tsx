@@ -40,7 +40,7 @@ const getIcon = (icon:string) => {
 
 const NavBtn = ({x, y, label, link, icon, newTab} : {x:string, y:string, label:string, link:string, icon:string, newTab:boolean}) => {
   return (
-    <button className="absolute cursor-pointer z-50"
+    <button className="absolute cursor-pointer"
     style={{
         transform: `translate(${x}, ${y}`
     }}

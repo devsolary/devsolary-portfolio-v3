@@ -7,7 +7,7 @@ const navigation = () => {
     const angleIncrement = 360/HomebtnData.length;
 
   return (
-    <div className='w-full fixed h-screen flex items-center justify-center'>
+    <div className='w-full fixed h-screen flex items-center justify-center z-10'>
         <div className='flex item-center justify-between relative animate-spin-slow'>
         {
             HomebtnData.map((btn, i) => 
