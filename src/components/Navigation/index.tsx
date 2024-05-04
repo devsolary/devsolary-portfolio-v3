@@ -8,7 +8,7 @@ const navigation = () => {
 
   return (
     <div className='w-full fixed h-screen flex items-center justify-center z-10'>
-        <div className='flex item-center justify-between relative animate-spin-slow'>
+        <div className='w-max flex item-center justify-center relative hover:pause animate-spin-slow group'>
         {
             HomebtnData.map((btn, i) => 
                 {
