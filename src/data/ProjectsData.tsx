@@ -48,5 +48,12 @@ export const projectsData : projectsDataInterface[] = [
         description: "digital marketting website",
         date: "10-3-2023",
         demoLink: ""
+    },
+    {
+        id: 7,
+        name: "Alternative digital solution",
+        description: "digital marketting website",
+        date: "10-3-2023",
+        demoLink: ""
     }
 ]

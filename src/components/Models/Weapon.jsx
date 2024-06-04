@@ -9,12 +9,19 @@ Title: Cyborg Weapon
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import { useFrame } from '@react-three/fiber';
 
 export default function Weapon(props) {
-  const { nodes, materials } = useGLTF('/models/weapon-scene-transformed.glb')
+  const { nodes, materials } = useGLTF('/models/weapon-scene-transformed.glb');
+  const modelRef = useRef();
+  useFrame(() => {
+    modelRef.current.rotation.y += 0.008;
+  })
   return (
     <group {...props} dispose={null}
-    scale={[10, 10, 10]}
+    scale={[2,2,2]}
+    position={[0, 1, 0]}
+    ref={modelRef}
     >
       <mesh
         castShadow
