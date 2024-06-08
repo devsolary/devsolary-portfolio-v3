@@ -9,11 +9,24 @@ Title: UFO Flying Saucer Spaceship OVNI
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import { useFrame } from '@react-three/fiber'
 
 export default function Ufo(props) {
   const { nodes, materials } = useGLTF('/models/ufo-scene-transformed.glb')
+
+  const modelRef = useRef()
+
+  useFrame((state, delta, xrFrame) => {
+    modelRef.current.rotation.y += 0.005;
+  })
+
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null}
+    ref={modelRef}
+    position={[0, 0.5, 0.5]}
+    scale={[0.4, 0.4, 0.4]}
+    rotation={[0, 0.5, 0]}
+    >
       <mesh
         castShadow
         receiveShadow
