@@ -50,7 +50,7 @@ export const HomebtnData: btnList[] = [
     },
     {
         label: "WhatSapp",
-        link: "wa.link/lxwx4s",
+        link: "https://wa.link/lxwx4s",
         icon: "whatSapp",
         newTab: true
     },

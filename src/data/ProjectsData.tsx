@@ -12,28 +12,28 @@ export const projectsData : projectsDataInterface[] = [
         name: "solaryCineTune",
         description: "music and download website",
         date: "20-8-2022",
-        demoLink: ""
+        demoLink: "https://devsolary.github.io/solaryCineTune/"
     },
     {
         id: 2,
-        name: "Doyen Tech",
-        description: "Doyen Tech brand website",
+        name: "Xolarie Tech inc",
+        description: "Xolarie Tech brand website",
         date: "10-9-2023",
-        demoLink: ""
+        demoLink: "https://xsolarie.onrender.com/"
     },
     {
         id: 3,
         name: "Faculty Journal",
         description: "Journal report and submission website",
         date: "15-2-2024",
-        demoLink: ""
+        demoLink: "https://faculty-journal.onrender.com/"
     },
     {
         id: 4,
         name: "Netflix clone",
         description: "netflix website interface cloning",
         date: "16-5-2023",
-        demoLink: ""
+        demoLink: "https://devsolary.github.io/netflix-clone/"
     },
     {
         id: 5,
@@ -47,13 +47,13 @@ export const projectsData : projectsDataInterface[] = [
         name: "Alternative digital solution",
         description: "digital marketting website",
         date: "10-3-2023",
-        demoLink: ""
+        demoLink: "http://alternativesolutiondigitals.web.app/"
     },
     {
         id: 7,
-        name: "Alternative digital solution",
-        description: "digital marketting website",
+        name: "Rain-Innetwork weather app",
+        description: "Responsive Weather forecast App",
         date: "10-3-2023",
-        demoLink: ""
-    }
+        demoLink: "https://rain-innetwork-weather-app.onrender.com/"
+    },
 ]

@@ -23,7 +23,7 @@ const ProjectList = ({projects} : {projects : projectsDataInterface[]}) => {
     initial="hidden"
     animate="show"
 
-    className="w-full max-w-auto xl:max-w-4xl px-4 mx-auto lg:px-14 space-y-6 md:space-y-8 flex flex-col items-center">
+    className="w-full max-w-auto xl:max-w-4xl px-4 mx-auto lg:px-14 space-y-6 md:space-y-8 flex flex-col items-center overflow-y-hidden">
         {projects.map((project, i) => {
             return <ProjectsLayout key={i} {...project} />
         })}
